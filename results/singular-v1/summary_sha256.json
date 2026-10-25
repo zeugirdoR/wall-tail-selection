@@ -1,7 +1,7 @@
 {
-  "SINGULAR_REPORT_20261025.md": "461910b1e7cfa0f2cbde339da4ee7547f178f38ec469fff25ce57bbd8004a126",
-  "SINGULAR_PROTOCOL.md": "a8a954fcb1d6c8a57b161e339d370fbfa3768e8504b05ca36c52d09776ef71af",
-  "SINGULAR_DERIVATION.md": "8010d227cffeb4f67fa5628a79e7cfa40adaa9775075d6a3ad4eac07fe1f31e5",
+  "SINGULAR_REPORT_20261025.md": "756d7b48c7bcd677742f505c1296756eceaa77f79d16431637dc93719e27418d",
+  "SINGULAR_PROTOCOL.md": "4fe97dee930690d06a7c709dfffe0a230e1c56de18e1083553a6bf2a27b13056",
+  "SINGULAR_DERIVATION.md": "203cba4553cdbe7ed2ad247d0099a6b0c8403c49c1a87cf0f30c0c8c7cd1a4c0",
   "results/singular-v1/analysis_evidence.csv": "c6cff5ac1550d7776708bd4a55be7878d22b67202f1f73cb4ed6af6b5250cecc",
   "results/singular-v1/analysis_predictions.csv": "08ac30a5f439669c286d19ddffe2c68150c6ba327d86da6e2de03235dcc8adf4",
   "results/singular-v1/analysis_risk_contrasts.csv": "8ecccc0898e8046bd0400d4237eb00292dd844bfb7948a2bb5ff99d4bf79ab01",

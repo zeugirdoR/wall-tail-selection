@@ -1,0 +1,163 @@
+{
+  "status": "complete",
+  "started_utc": "2026-10-25T12:26:54.951559+00:00",
+  "config_sha256": "218b48428c3db5fa773336072843b868a5e2ae3c6a8a8235d76ab7bc225d0b4a",
+  "config": {
+    "protocol_version": "singular-crossover-v1",
+    "seed": 2026102501,
+    "replicates": 32,
+    "test_size": 2048,
+    "prior_upper": 2.0,
+    "model_prior_m1": 0.5,
+    "nodes": 256,
+    "cells": [
+      {
+        "n": 32,
+        "regime": "local",
+        "value": 0.0
+      },
+      {
+        "n": 32,
+        "regime": "local",
+        "value": 0.5
+      },
+      {
+        "n": 32,
+        "regime": "local",
+        "value": 1.0
+      },
+      {
+        "n": 32,
+        "regime": "local",
+        "value": 2.0
+      },
+      {
+        "n": 32,
+        "regime": "regular",
+        "value": 1.0
+      },
+      {
+        "n": 128,
+        "regime": "local",
+        "value": 0.0
+      },
+      {
+        "n": 128,
+        "regime": "local",
+        "value": 0.5
+      },
+      {
+        "n": 128,
+        "regime": "local",
+        "value": 1.0
+      },
+      {
+        "n": 128,
+        "regime": "local",
+        "value": 2.0
+      },
+      {
+        "n": 128,
+        "regime": "regular",
+        "value": 1.0
+      },
+      {
+        "n": 512,
+        "regime": "local",
+        "value": 0.0
+      },
+      {
+        "n": 512,
+        "regime": "local",
+        "value": 0.5
+      },
+      {
+        "n": 512,
+        "regime": "local",
+        "value": 1.0
+      },
+      {
+        "n": 512,
+        "regime": "local",
+        "value": 2.0
+      },
+      {
+        "n": 512,
+        "regime": "regular",
+        "value": 1.0
+      },
+      {
+        "n": 32,
+        "regime": "boundary",
+        "value": 0.8
+      },
+      {
+        "n": 32,
+        "regime": "boundary",
+        "value": 1.2
+      },
+      {
+        "n": 128,
+        "regime": "boundary",
+        "value": 0.8
+      },
+      {
+        "n": 128,
+        "regime": "boundary",
+        "value": 1.2
+      },
+      {
+        "n": 512,
+        "regime": "boundary",
+        "value": 0.8
+      },
+      {
+        "n": 512,
+        "regime": "boundary",
+        "value": 1.2
+      }
+    ]
+  },
+  "git_commit": null,
+  "git_dirty": false,
+  "python": "3.12.9",
+  "machine": "aarch64",
+  "hostname": "gh045.hsn.cm.delta.internal.ncsa.edu",
+  "command": [
+    "scripts/run_singular.py",
+    "--config",
+    "configs/singular-benchmark.json",
+    "--output",
+    "runs/deltaai-singular-3453668",
+    "--workers",
+    "8"
+  ],
+  "source_sha256": {
+    "src/wall_tail_selection/__init__.py": "e5d775b5ac14d5a66cecd316a864f6302d2e041686f0cadd5e338502992add76",
+    "src/wall_tail_selection/calibration.py": "7a2ebee0cdcb15d724e6fe56eb12e8cf8b16e699a32789a4f500c6a9eecb22ec",
+    "src/wall_tail_selection/cli.py": "ea023b069c8a389464c04e4638ba859aadc510150214642e03dae1ac4308b928",
+    "src/wall_tail_selection/geometry.py": "3a707c0f9d16267710a07d723a16de697968f2343529cada2f5933169f0b218d",
+    "src/wall_tail_selection/mechanism.py": "3b436aad645849862d45aa42f643ecf0d4f3d87bc5e439484ae7f45e37e26c47",
+    "src/wall_tail_selection/provenance.py": "451071313658ead30164798a1980f600174e779dbc895a44af20093789a13e94",
+    "src/wall_tail_selection/selection.py": "f658f5db7e96b2c11d7c6e68f6dff502230f6b3c6ac246e0fb523e91c0ea492a",
+    "src/wall_tail_selection/singular.py": "614ce3623593e828c18981c32d56d91d619d900babcb61e632f2e5d2fbc729b4"
+  },
+  "packages": {
+    "numpy": "2.4.2",
+    "scipy": "1.17.1",
+    "torch": "2.10.0+cu129"
+  },
+  "slurm_job_id": "3453668",
+  "classification": "exploratory pilot; not confirmatory evidence",
+  "workers": 8,
+  "execution": "CPU scipy quadrature, no GPU acceleration",
+  "dataset_cases": 672,
+  "elapsed_seconds": 1.404534151777625,
+  "finished_utc": "2026-10-25T12:26:56.413234+00:00",
+  "output_sha256": {
+    "config.json": "218b48428c3db5fa773336072843b868a5e2ae3c6a8a8235d76ab7bc225d0b4a",
+    "datasets.csv": "362f5eb5382176c64acdc600af00cf61f1b5de0a98ebf4c4c651b3d1deb18aab",
+    "evidence.csv": "c981a6bf54ad57334d4d8b65043c169e3f37504c24d63128e458fbc3b6c9c7f5",
+    "predictions.csv": "2e5f8b3ac34a3b7d117fb6ce32330fd978422225825eff5fac1d5ecacf8264fc"
+  }
+}

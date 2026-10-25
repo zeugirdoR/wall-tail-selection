@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wall-tail-selection"
+version = "0.1.0"
+description = "Finite-resolution model selection experiments for walls and tails"
+requires-python = ">=3.10"
+dependencies = ["numpy>=2.2,<3", "scipy>=1.15,<2"]
+
+[project.optional-dependencies]
+selection = ["torch>=2.5,<3"]
+notebook = ["matplotlib>=3.8", "nbformat>=5", "jupyterlab>=4"]
+
+[project.scripts]
+wts = "wall_tail_selection.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,18 @@
+[
+  {
+    "config": "configs/singular-pilot.json",
+    "cases": 12,
+    "max_logbf_refinement": 1.9806378759312793e-13,
+    "max_predictive_loss_refinement": 9.325873406851315e-15,
+    "max_adaptive_logbf_error": 6.972200594645983e-14,
+    "choice_changes": 0
+  },
+  {
+    "config": "configs/singular-boundary-pilot.json",
+    "cases": 12,
+    "max_logbf_refinement": 1.0835776720341528e-13,
+    "max_predictive_loss_refinement": 2.220446049250313e-15,
+    "max_adaptive_logbf_error": 3.774758283725532e-14,
+    "choice_changes": 0
+  }
+]

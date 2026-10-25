@@ -1,0 +1,24 @@
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+build/
+dist/
+runs/
+data/raw/
+data/processed/
+slurm-*.out
+*.npz
+*.npy
+*.pt
+*.pth
+.env
+*.key
+*.pem
+.DS_Store
+
+# Preserve local experiment archives without publishing bulk or host logs.
+snapshots/
+*.out

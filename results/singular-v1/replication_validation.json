@@ -1,0 +1,28 @@
+{
+  "config_source_equal": true,
+  "tables": {
+    "datasets.csv": {
+      "rows": 672,
+      "max_absolute_differences": {
+        "log_bf": 2.6068036618198676e-13,
+        "loo_score_difference": 1.3216094885137863e-11,
+        "waic_score_difference": 1.318767317570746e-11
+      }
+    },
+    "evidence.csv": {
+      "rows": 3360,
+      "max_absolute_differences": {
+        "log_bf": 2.6068036618198676e-13,
+        "error": 2.6068036618198676e-13
+      }
+    },
+    "predictions.csv": {
+      "rows": 7392,
+      "max_absolute_differences": {
+        "weight_m1": 7.66206542657244e-13,
+        "log_loss": 2.5757174171303632e-14,
+        "excess_vs_oracle": 2.575890889477961e-14
+      }
+    }
+  }
+}

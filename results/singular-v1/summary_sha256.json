@@ -1,0 +1,15 @@
+{
+  "SINGULAR_REPORT_20261025.md": "461910b1e7cfa0f2cbde339da4ee7547f178f38ec469fff25ce57bbd8004a126",
+  "SINGULAR_PROTOCOL.md": "a8a954fcb1d6c8a57b161e339d370fbfa3768e8504b05ca36c52d09776ef71af",
+  "SINGULAR_DERIVATION.md": "8010d227cffeb4f67fa5628a79e7cfa40adaa9775075d6a3ad4eac07fe1f31e5",
+  "results/singular-v1/analysis_evidence.csv": "c6cff5ac1550d7776708bd4a55be7878d22b67202f1f73cb4ed6af6b5250cecc",
+  "results/singular-v1/analysis_predictions.csv": "08ac30a5f439669c286d19ddffe2c68150c6ba327d86da6e2de03235dcc8adf4",
+  "results/singular-v1/analysis_risk_contrasts.csv": "8ecccc0898e8046bd0400d4237eb00292dd844bfb7948a2bb5ff99d4bf79ab01",
+  "results/singular-v1/analysis_shape_ablation.csv": "de92d867d4efd70380252e2243541d428244c47e993d1ddb59a9219bf3c022e4",
+  "results/singular-v1/analysis_overview.json": "e5df91cdf3674dfdf31523fafd65304873c2aab75bf4721682d293a4b26e0451",
+  "results/singular-v1/manifest.json": "c2981c0aa5e2bd3a2b1180c738452513ef4bf16630beddad610386778713243f",
+  "results/singular-v1/config.json": "218b48428c3db5fa773336072843b868a5e2ae3c6a8a8235d76ab7bc225d0b4a",
+  "results/singular-v1/replication_validation.json": "a0da9027bcde36698fa50c61cdf1b502d2b21fbf1e2251181a4cfc07c43a55d1",
+  "results/singular-v1/numerical_audit.json": "209660dee73781ef50ecbf6918380123988d893008bd7e21fced238afda1ed51",
+  "results/singular-v1/executed_snapshot_sha256.txt": "835352192170468558257d74a90d19c3a6601768aebf3bcd69b748b9a0b3e20d"
+}

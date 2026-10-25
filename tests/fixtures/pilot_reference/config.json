@@ -1,0 +1,20 @@
+{
+  "protocol_version": "smoke-v0.1",
+  "seed": 20261023,
+  "geometry": {
+    "shapes": [1, 2, 3],
+    "sample_sizes": [32, 512],
+    "boundary_b": [-1, 0, 1]
+  },
+  "selection": {
+    "shapes": [1, 1.5, 2, 3, 5, null],
+    "sample_sizes": [32, 128],
+    "replicates": 4,
+    "batch_size": 4,
+    "scale_bounds": [0.5, 4.0],
+    "scale_grid_size": 129,
+    "resolution_c": 1.0,
+    "evaluation_upper": 8.0,
+    "evaluation_nodes": 128
+  }
+}

@@ -1,0 +1,2 @@
+# Preserve standard CSV CRLF bytes so published provenance hashes stay exact.
+*.csv -text whitespace=cr-at-eol

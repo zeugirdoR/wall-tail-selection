@@ -1,0 +1,116 @@
+{
+  "protocol_version": "singular-crossover-v1",
+  "seed": 2026102501,
+  "replicates": 32,
+  "test_size": 2048,
+  "prior_upper": 2.0,
+  "model_prior_m1": 0.5,
+  "nodes": 256,
+  "cells": [
+    {
+      "n": 32,
+      "regime": "local",
+      "value": 0.0
+    },
+    {
+      "n": 32,
+      "regime": "local",
+      "value": 0.5
+    },
+    {
+      "n": 32,
+      "regime": "local",
+      "value": 1.0
+    },
+    {
+      "n": 32,
+      "regime": "local",
+      "value": 2.0
+    },
+    {
+      "n": 32,
+      "regime": "regular",
+      "value": 1.0
+    },
+    {
+      "n": 128,
+      "regime": "local",
+      "value": 0.0
+    },
+    {
+      "n": 128,
+      "regime": "local",
+      "value": 0.5
+    },
+    {
+      "n": 128,
+      "regime": "local",
+      "value": 1.0
+    },
+    {
+      "n": 128,
+      "regime": "local",
+      "value": 2.0
+    },
+    {
+      "n": 128,
+      "regime": "regular",
+      "value": 1.0
+    },
+    {
+      "n": 512,
+      "regime": "local",
+      "value": 0.0
+    },
+    {
+      "n": 512,
+      "regime": "local",
+      "value": 0.5
+    },
+    {
+      "n": 512,
+      "regime": "local",
+      "value": 1.0
+    },
+    {
+      "n": 512,
+      "regime": "local",
+      "value": 2.0
+    },
+    {
+      "n": 512,
+      "regime": "regular",
+      "value": 1.0
+    },
+    {
+      "n": 32,
+      "regime": "boundary",
+      "value": 0.8
+    },
+    {
+      "n": 32,
+      "regime": "boundary",
+      "value": 1.2
+    },
+    {
+      "n": 128,
+      "regime": "boundary",
+      "value": 0.8
+    },
+    {
+      "n": 128,
+      "regime": "boundary",
+      "value": 1.2
+    },
+    {
+      "n": 512,
+      "regime": "boundary",
+      "value": 0.8
+    },
+    {
+      "n": 512,
+      "regime": "boundary",
+      "value": 1.2
+    }
+  ]
+}

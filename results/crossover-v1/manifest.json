@@ -1,0 +1,331 @@
+{
+  "status": "complete",
+  "started_utc": "2026-10-26T13:10:35.566127+00:00",
+  "config_sha256": "c0cc4908dcd69e8ee485c46237fc3790ff99fa8f533167a8b84a4c7c3a5d7dcc",
+  "config": {
+    "protocol_version": "boundary-crossover-v1",
+    "prior_upper": 2.0,
+    "nodes": 256,
+    "evaluation_nodes": 64,
+    "evaluate": true,
+    "cells": [
+      {
+        "family": "mixture",
+        "n": 32,
+        "regime": "local",
+        "value": 0.0
+      },
+      {
+        "family": "mixture",
+        "n": 32,
+        "regime": "local",
+        "value": 0.5
+      },
+      {
+        "family": "mixture",
+        "n": 32,
+        "regime": "local",
+        "value": 1.0
+      },
+      {
+        "family": "mixture",
+        "n": 32,
+        "regime": "local",
+        "value": 2.0
+      },
+      {
+        "family": "mixture",
+        "n": 32,
+        "regime": "boundary",
+        "value": 0.8
+      },
+      {
+        "family": "mixture",
+        "n": 32,
+        "regime": "boundary",
+        "value": 1.2
+      },
+      {
+        "family": "mixture",
+        "n": 32,
+        "regime": "regular",
+        "value": 1.0
+      },
+      {
+        "family": "mixture",
+        "n": 128,
+        "regime": "local",
+        "value": 0.0
+      },
+      {
+        "family": "mixture",
+        "n": 128,
+        "regime": "local",
+        "value": 0.5
+      },
+      {
+        "family": "mixture",
+        "n": 128,
+        "regime": "local",
+        "value": 1.0
+      },
+      {
+        "family": "mixture",
+        "n": 128,
+        "regime": "local",
+        "value": 2.0
+      },
+      {
+        "family": "mixture",
+        "n": 128,
+        "regime": "boundary",
+        "value": 0.8
+      },
+      {
+        "family": "mixture",
+        "n": 128,
+        "regime": "boundary",
+        "value": 1.2
+      },
+      {
+        "family": "mixture",
+        "n": 128,
+        "regime": "regular",
+        "value": 1.0
+      },
+      {
+        "family": "mixture",
+        "n": 512,
+        "regime": "local",
+        "value": 0.0
+      },
+      {
+        "family": "mixture",
+        "n": 512,
+        "regime": "local",
+        "value": 0.5
+      },
+      {
+        "family": "mixture",
+        "n": 512,
+        "regime": "local",
+        "value": 1.0
+      },
+      {
+        "family": "mixture",
+        "n": 512,
+        "regime": "local",
+        "value": 2.0
+      },
+      {
+        "family": "mixture",
+        "n": 512,
+        "regime": "boundary",
+        "value": 0.8
+      },
+      {
+        "family": "mixture",
+        "n": 512,
+        "regime": "boundary",
+        "value": 1.2
+      },
+      {
+        "family": "mixture",
+        "n": 512,
+        "regime": "regular",
+        "value": 1.0
+      },
+      {
+        "family": "variance",
+        "n": 32,
+        "regime": "local",
+        "value": 0.0
+      },
+      {
+        "family": "variance",
+        "n": 32,
+        "regime": "local",
+        "value": 0.5
+      },
+      {
+        "family": "variance",
+        "n": 32,
+        "regime": "local",
+        "value": 1.0
+      },
+      {
+        "family": "variance",
+        "n": 32,
+        "regime": "local",
+        "value": 2.0
+      },
+      {
+        "family": "variance",
+        "n": 32,
+        "regime": "boundary",
+        "value": 0.8
+      },
+      {
+        "family": "variance",
+        "n": 32,
+        "regime": "boundary",
+        "value": 1.2
+      },
+      {
+        "family": "variance",
+        "n": 32,
+        "regime": "regular",
+        "value": 1.0
+      },
+      {
+        "family": "variance",
+        "n": 128,
+        "regime": "local",
+        "value": 0.0
+      },
+      {
+        "family": "variance",
+        "n": 128,
+        "regime": "local",
+        "value": 0.5
+      },
+      {
+        "family": "variance",
+        "n": 128,
+        "regime": "local",
+        "value": 1.0
+      },
+      {
+        "family": "variance",
+        "n": 128,
+        "regime": "local",
+        "value": 2.0
+      },
+      {
+        "family": "variance",
+        "n": 128,
+        "regime": "boundary",
+        "value": 0.8
+      },
+      {
+        "family": "variance",
+        "n": 128,
+        "regime": "boundary",
+        "value": 1.2
+      },
+      {
+        "family": "variance",
+        "n": 128,
+        "regime": "regular",
+        "value": 1.0
+      },
+      {
+        "family": "variance",
+        "n": 512,
+        "regime": "local",
+        "value": 0.0
+      },
+      {
+        "family": "variance",
+        "n": 512,
+        "regime": "local",
+        "value": 0.5
+      },
+      {
+        "family": "variance",
+        "n": 512,
+        "regime": "local",
+        "value": 1.0
+      },
+      {
+        "family": "variance",
+        "n": 512,
+        "regime": "local",
+        "value": 2.0
+      },
+      {
+        "family": "variance",
+        "n": 512,
+        "regime": "boundary",
+        "value": 0.8
+      },
+      {
+        "family": "variance",
+        "n": 512,
+        "regime": "boundary",
+        "value": 1.2
+      },
+      {
+        "family": "variance",
+        "n": 512,
+        "regime": "regular",
+        "value": 1.0
+      }
+    ],
+    "seed": 2026102603,
+    "replicates": 4096,
+    "frozen_sha256": "c44498a3cbd32c967a975da46a653ff4877fe38703c441b590144bf3a7ee1078"
+  },
+  "git_commit": null,
+  "git_dirty": false,
+  "python": "3.12.9",
+  "machine": "aarch64",
+  "hostname": "gh022.hsn.cm.delta.internal.ncsa.edu",
+  "command": [
+    "scripts/run_crossover.py",
+    "--config",
+    "frozen/confirmation.json",
+    "--output",
+    "runs/deltaai-crossconfirm-3462217",
+    "--workers",
+    "8"
+  ],
+  "source_sha256": {
+    "src/wall_tail_selection/__init__.py": "e5d775b5ac14d5a66cecd316a864f6302d2e041686f0cadd5e338502992add76",
+    "src/wall_tail_selection/calibration.py": "7a2ebee0cdcb15d724e6fe56eb12e8cf8b16e699a32789a4f500c6a9eecb22ec",
+    "src/wall_tail_selection/cli.py": "ea023b069c8a389464c04e4638ba859aadc510150214642e03dae1ac4308b928",
+    "src/wall_tail_selection/crossover.py": "ee982f50700136c1788e39a7b260c34800cdc7ad18ced556079f2f6214d3f215",
+    "src/wall_tail_selection/crossover_inference.py": "a478c4dbf49a70778c02bdfad51e2dd33609876886793fe1d2696d2cd3f87e18",
+    "src/wall_tail_selection/geometry.py": "3a707c0f9d16267710a07d723a16de697968f2343529cada2f5933169f0b218d",
+    "src/wall_tail_selection/mechanism.py": "3b436aad645849862d45aa42f643ecf0d4f3d87bc5e439484ae7f45e37e26c47",
+    "src/wall_tail_selection/provenance.py": "451071313658ead30164798a1980f600174e779dbc895a44af20093789a13e94",
+    "src/wall_tail_selection/selection.py": "f658f5db7e96b2c11d7c6e68f6dff502230f6b3c6ac246e0fb523e91c0ea492a",
+    "src/wall_tail_selection/singular.py": "614ce3623593e828c18981c32d56d91d619d900babcb61e632f2e5d2fbc729b4"
+  },
+  "packages": {
+    "numpy": "2.4.2",
+    "scipy": "1.17.1",
+    "torch": "2.10.0+cu129"
+  },
+  "slurm_job_id": "3462217",
+  "classification": "Prespecified bounded suite; held-out confirmation only for frozen seed 2026102603",
+  "workers": 8,
+  "execution": "CPU quadrature",
+  "score_columns": [
+    "eta_laplace",
+    "mu_laplace",
+    "exact",
+    "sbic",
+    "wbic",
+    "loo",
+    "waic",
+    "lrt",
+    "moment",
+    "bic",
+    "rlct_only",
+    "local_shape"
+  ],
+  "risk_columns": [
+    "m0",
+    "m1",
+    "bma",
+    "stacking"
+  ],
+  "dataset_cases": 172032,
+  "elapsed_seconds": 62.036794199142605,
+  "finished_utc": "2026-10-26T13:11:37.627974+00:00",
+  "output_sha256": {
+    "config.json": "c0cc4908dcd69e8ee485c46237fc3790ff99fa8f533167a8b84a4c7c3a5d7dcc",
+    "records.npz": "658a7cd7c1fac1f40d5b097715f87a68a1bb9ccb7148081440867be1c52cf1bc"
+  }
+}

@@ -1,6 +1,24 @@
 # Wall-tail selection
 
-Exploratory model-selection experiments separating geometric/evidence approximations from predictive performance. The latest experiment studies the singular crossover in a symmetric two-normal mixture, with fixed proper priors and exact numerical evidence, LOO, WAIC, BMA and stacking references.
+## Latest: boundary-geometric suite (October 26)
+
+The two-family, 42-cell held-out suite tested 4,096 replicates per cell (172,032 datasets), after separate null calibration and a variance-only sizing pilot. **No whole-region result met the prespecified practical selection-improvement rule against the matched strong comparators.** The boundary-Laplace approximation substantially repaired evidence accuracy, while predictive selection did not outperform exact evidence or the strong predictive baselines. The mixture boundary region was worse than LOO by a practically meaningful amount.
+
+Read the [full results](CROSSOVER_REPORT_20261026.md), [protocol](CROSSOVER_PROTOCOL.md), [derivation and baseline definitions](CROSSOVER_DERIVATION.md), and [compact frozen artifacts](results/crossover-v1). The report includes the failed calibration job, numerical repair, power limitation, fallback counts and all-region negative findings.
+
+```bash
+python -m pip install -e '.[selection]'
+PYTHONPATH=src python -m unittest discover -s tests -v
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 PYTHONPATH=src python scripts/run_crossover.py --config results/crossover-v1/confirmation.json --output runs/NEW_CONFIRMATION --workers 4
+python scripts/validate_crossover.py runs/NEW_CONFIRMATION
+PYTHONPATH=src python scripts/analyze_crossover.py runs/NEW_CONFIRMATION results/crossover-v1/frozen.json
+```
+
+This reproduces the frozen benchmark; it does not refit thresholds. The calibration and pilot configurations are also published. `freeze_crossover.py` targets the documented historical pilot path; adjust paths, not seeds/methods, when reconstructing that workflow. Outputs must be new directories. Raw compressed records and host logs are excluded from Git. DeltaAI scripts show the actual existing allocation and versioned snapshot paths, not authorization for another user's resources. Computation is CPU-only despite the minimum GH200 allocation.
+
+## Earlier singular-crossover pilot (October 25)
+
+Exploratory model-selection experiments separating geometric/evidence approximations from predictive performance. The earlier experiment studies the singular crossover in a symmetric two-normal mixture, with fixed proper priors and exact numerical evidence, LOO, WAIC, BMA and stacking references.
 
 **Result:** the local shape correction helps approximate evidence near the null but fails outside its local regime. This pilot does not establish superior predictive selection. Read [the full report](SINGULAR_REPORT_20261025.md), [derivation](SINGULAR_DERIVATION.md), and [frozen protocol and amendment](SINGULAR_PROTOCOL.md). Compact results and provenance are in [results/singular-v1](results/singular-v1).
 

@@ -1,0 +1,8 @@
+{
+  "cases": 42,
+  "max_score_refinement": 2.7853275241795927e-12,
+  "max_risk_refinement": 1.5437251477123937e-10,
+  "max_adaptive_error": 8.038014698286133e-14,
+  "max_independent_test_z": 1.7567831601599244,
+  "fallback_changes": 0
+}

@@ -1,0 +1,47 @@
+{
+  "protocol_version": "boundary-crossover-v1",
+  "prior_upper": 2.0,
+  "nodes": 256,
+  "evaluation_nodes": 64,
+  "evaluate": false,
+  "cells": [
+    {
+      "family": "mixture",
+      "n": 32,
+      "regime": "local",
+      "value": 0.0
+    },
+    {
+      "family": "mixture",
+      "n": 128,
+      "regime": "local",
+      "value": 0.0
+    },
+    {
+      "family": "mixture",
+      "n": 512,
+      "regime": "local",
+      "value": 0.0
+    },
+    {
+      "family": "variance",
+      "n": 32,
+      "regime": "local",
+      "value": 0.0
+    },
+    {
+      "family": "variance",
+      "n": 128,
+      "regime": "local",
+      "value": 0.0
+    },
+    {
+      "family": "variance",
+      "n": 512,
+      "regime": "local",
+      "value": 0.0
+    }
+  ],
+  "seed": 2026102601,
+  "replicates": 8192
+}

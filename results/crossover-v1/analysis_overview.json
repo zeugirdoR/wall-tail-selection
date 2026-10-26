@@ -1,0 +1,25 @@
+{
+  "cases": 172032,
+  "replicates": 4096,
+  "interval_statements": 792,
+  "bonferroni_budget": 1000,
+  "calibration_job": "3462202",
+  "confirmation_job": "3462217",
+  "uncapped_required": 30850.764106843162,
+  "size_capped": true,
+  "fallback_counts": [
+    68,
+    0
+  ],
+  "positive_region_claims": [],
+  "monotone_controls": {
+    "bic_versus_lrt_disagreements": 0,
+    "rlct_only_versus_lrt_disagreements": 0,
+    "sbic_versus_lrt_disagreements": 0
+  },
+  "timing_medians": [
+    0.00023461808450520039,
+    0.00015401211567223072
+  ],
+  "elapsed_seconds": 62.036794199142605
+}

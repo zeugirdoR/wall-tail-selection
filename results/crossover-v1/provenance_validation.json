@@ -1,0 +1,13 @@
+{
+  "frozen_before_confirmation": true,
+  "frozen_hash_verified": true,
+  "source_hashes_equal": true,
+  "calibration_pilot_confirmation_hashes_disjoint": true,
+  "local_platform_cases": 336,
+  "native_choices_equal": true,
+  "max_absolute_differences": {
+    "scores": 4.803268893738277e-12,
+    "risks": 9.325873406851315e-15,
+    "stack_weight": 3.380976054678797e-13
+  }
+}

@@ -1,0 +1,264 @@
+{
+  "protocol_version": "boundary-crossover-v1",
+  "prior_upper": 2.0,
+  "nodes": 256,
+  "evaluation_nodes": 64,
+  "evaluate": true,
+  "cells": [
+    {
+      "family": "mixture",
+      "n": 32,
+      "regime": "local",
+      "value": 0.0
+    },
+    {
+      "family": "mixture",
+      "n": 32,
+      "regime": "local",
+      "value": 0.5
+    },
+    {
+      "family": "mixture",
+      "n": 32,
+      "regime": "local",
+      "value": 1.0
+    },
+    {
+      "family": "mixture",
+      "n": 32,
+      "regime": "local",
+      "value": 2.0
+    },
+    {
+      "family": "mixture",
+      "n": 32,
+      "regime": "boundary",
+      "value": 0.8
+    },
+    {
+      "family": "mixture",
+      "n": 32,
+      "regime": "boundary",
+      "value": 1.2
+    },
+    {
+      "family": "mixture",
+      "n": 32,
+      "regime": "regular",
+      "value": 1.0
+    },
+    {
+      "family": "mixture",
+      "n": 128,
+      "regime": "local",
+      "value": 0.0
+    },
+    {
+      "family": "mixture",
+      "n": 128,
+      "regime": "local",
+      "value": 0.5
+    },
+    {
+      "family": "mixture",
+      "n": 128,
+      "regime": "local",
+      "value": 1.0
+    },
+    {
+      "family": "mixture",
+      "n": 128,
+      "regime": "local",
+      "value": 2.0
+    },
+    {
+      "family": "mixture",
+      "n": 128,
+      "regime": "boundary",
+      "value": 0.8
+    },
+    {
+      "family": "mixture",
+      "n": 128,
+      "regime": "boundary",
+      "value": 1.2
+    },
+    {
+      "family": "mixture",
+      "n": 128,
+      "regime": "regular",
+      "value": 1.0
+    },
+    {
+      "family": "mixture",
+      "n": 512,
+      "regime": "local",
+      "value": 0.0
+    },
+    {
+      "family": "mixture",
+      "n": 512,
+      "regime": "local",
+      "value": 0.5
+    },
+    {
+      "family": "mixture",
+      "n": 512,
+      "regime": "local",
+      "value": 1.0
+    },
+    {
+      "family": "mixture",
+      "n": 512,
+      "regime": "local",
+      "value": 2.0
+    },
+    {
+      "family": "mixture",
+      "n": 512,
+      "regime": "boundary",
+      "value": 0.8
+    },
+    {
+      "family": "mixture",
+      "n": 512,
+      "regime": "boundary",
+      "value": 1.2
+    },
+    {
+      "family": "mixture",
+      "n": 512,
+      "regime": "regular",
+      "value": 1.0
+    },
+    {
+      "family": "variance",
+      "n": 32,
+      "regime": "local",
+      "value": 0.0
+    },
+    {
+      "family": "variance",
+      "n": 32,
+      "regime": "local",
+      "value": 0.5
+    },
+    {
+      "family": "variance",
+      "n": 32,
+      "regime": "local",
+      "value": 1.0
+    },
+    {
+      "family": "variance",
+      "n": 32,
+      "regime": "local",
+      "value": 2.0
+    },
+    {
+      "family": "variance",
+      "n": 32,
+      "regime": "boundary",
+      "value": 0.8
+    },
+    {
+      "family": "variance",
+      "n": 32,
+      "regime": "boundary",
+      "value": 1.2
+    },
+    {
+      "family": "variance",
+      "n": 32,
+      "regime": "regular",
+      "value": 1.0
+    },
+    {
+      "family": "variance",
+      "n": 128,
+      "regime": "local",
+      "value": 0.0
+    },
+    {
+      "family": "variance",
+      "n": 128,
+      "regime": "local",
+      "value": 0.5
+    },
+    {
+      "family": "variance",
+      "n": 128,
+      "regime": "local",
+      "value": 1.0
+    },
+    {
+      "family": "variance",
+      "n": 128,
+      "regime": "local",
+      "value": 2.0
+    },
+    {
+      "family": "variance",
+      "n": 128,
+      "regime": "boundary",
+      "value": 0.8
+    },
+    {
+      "family": "variance",
+      "n": 128,
+      "regime": "boundary",
+      "value": 1.2
+    },
+    {
+      "family": "variance",
+      "n": 128,
+      "regime": "regular",
+      "value": 1.0
+    },
+    {
+      "family": "variance",
+      "n": 512,
+      "regime": "local",
+      "value": 0.0
+    },
+    {
+      "family": "variance",
+      "n": 512,
+      "regime": "local",
+      "value": 0.5
+    },
+    {
+      "family": "variance",
+      "n": 512,
+      "regime": "local",
+      "value": 1.0
+    },
+    {
+      "family": "variance",
+      "n": 512,
+      "regime": "local",
+      "value": 2.0
+    },
+    {
+      "family": "variance",
+      "n": 512,
+      "regime": "boundary",
+      "value": 0.8
+    },
+    {
+      "family": "variance",
+      "n": 512,
+      "regime": "boundary",
+      "value": 1.2
+    },
+    {
+      "family": "variance",
+      "n": 512,
+      "regime": "regular",
+      "value": 1.0
+    }
+  ],
+  "seed": 2026102603,
+  "replicates": 4096,
+  "frozen_sha256": "c44498a3cbd32c967a975da46a653ff4877fe38703c441b590144bf3a7ee1078"
+}

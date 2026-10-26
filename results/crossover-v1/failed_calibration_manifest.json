@@ -1,0 +1,107 @@
+{
+  "status": "failed",
+  "started_utc": "2026-10-26T13:03:15.588648+00:00",
+  "config_sha256": "bd7aa09789c0ee11591a28caa2c445eb4fb2e1300bad424b0eae4373519bbf2c",
+  "config": {
+    "protocol_version": "boundary-crossover-v1",
+    "prior_upper": 2.0,
+    "nodes": 256,
+    "evaluation_nodes": 64,
+    "evaluate": false,
+    "cells": [
+      {
+        "family": "mixture",
+        "n": 32,
+        "regime": "local",
+        "value": 0.0
+      },
+      {
+        "family": "mixture",
+        "n": 128,
+        "regime": "local",
+        "value": 0.0
+      },
+      {
+        "family": "mixture",
+        "n": 512,
+        "regime": "local",
+        "value": 0.0
+      },
+      {
+        "family": "variance",
+        "n": 32,
+        "regime": "local",
+        "value": 0.0
+      },
+      {
+        "family": "variance",
+        "n": 128,
+        "regime": "local",
+        "value": 0.0
+      },
+      {
+        "family": "variance",
+        "n": 512,
+        "regime": "local",
+        "value": 0.0
+      }
+    ],
+    "seed": 2026102601,
+    "replicates": 8192
+  },
+  "git_commit": null,
+  "git_dirty": false,
+  "python": "3.12.9",
+  "machine": "aarch64",
+  "hostname": "gh148.hsn.cm.delta.internal.ncsa.edu",
+  "command": [
+    "scripts/run_crossover.py",
+    "--config",
+    "configs/crossover-calibration.json",
+    "--output",
+    "runs/deltaai-crosscal-3462189",
+    "--workers",
+    "8"
+  ],
+  "source_sha256": {
+    "src/wall_tail_selection/__init__.py": "e5d775b5ac14d5a66cecd316a864f6302d2e041686f0cadd5e338502992add76",
+    "src/wall_tail_selection/calibration.py": "7a2ebee0cdcb15d724e6fe56eb12e8cf8b16e699a32789a4f500c6a9eecb22ec",
+    "src/wall_tail_selection/cli.py": "ea023b069c8a389464c04e4638ba859aadc510150214642e03dae1ac4308b928",
+    "src/wall_tail_selection/crossover.py": "5eabdeadc9f6bffb0af2e25a63bb762dd6d451e4273ce8ab3b8ce2a1a76cd3c6",
+    "src/wall_tail_selection/geometry.py": "3a707c0f9d16267710a07d723a16de697968f2343529cada2f5933169f0b218d",
+    "src/wall_tail_selection/mechanism.py": "3b436aad645849862d45aa42f643ecf0d4f3d87bc5e439484ae7f45e37e26c47",
+    "src/wall_tail_selection/provenance.py": "451071313658ead30164798a1980f600174e779dbc895a44af20093789a13e94",
+    "src/wall_tail_selection/selection.py": "f658f5db7e96b2c11d7c6e68f6dff502230f6b3c6ac246e0fb523e91c0ea492a",
+    "src/wall_tail_selection/singular.py": "614ce3623593e828c18981c32d56d91d619d900babcb61e632f2e5d2fbc729b4"
+  },
+  "packages": {
+    "numpy": "2.4.2",
+    "scipy": "1.17.1",
+    "torch": "2.10.0+cu129"
+  },
+  "slurm_job_id": "3462189",
+  "classification": "exploratory pilot; not confirmatory evidence",
+  "workers": 8,
+  "execution": "CPU quadrature",
+  "score_columns": [
+    "eta_laplace",
+    "mu_laplace",
+    "exact",
+    "sbic",
+    "wbic",
+    "loo",
+    "waic",
+    "lrt",
+    "moment",
+    "bic",
+    "rlct_only",
+    "local_shape"
+  ],
+  "risk_columns": [
+    "m0",
+    "m1",
+    "bma",
+    "stacking"
+  ],
+  "error": "f(a) and f(b) must have different signs"
+}

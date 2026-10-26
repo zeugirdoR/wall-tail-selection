@@ -1,0 +1,23 @@
+{
+  "CROSSOVER_REPORT_20261026.md": "e9c7090b3fea335b8e99f197e3a3d92f0efd7cdc9f524cbdea59f97e50299ce8",
+  "CROSSOVER_PROTOCOL.md": "b368a51d4327a48fe1891b0c4a00962f21877861218ae2807e638e565864a27e",
+  "CROSSOVER_DERIVATION.md": "fa609a66d6e9056f019edbb0526b98d68f929ec65197ef25a41c59cbc1e9a09d",
+  "results/crossover-v1/analysis_intervals.csv": "62b705d6a60387bd52a71eb345619b1ac4fcadba0b65a079991f130fa0fff2a0",
+  "results/crossover-v1/analysis_predictive_summary.csv": "bf9a368de80c8b8a48ea41d96f89a76430ed81a66671e92c59a0c466a59a2015",
+  "results/crossover-v1/analysis_evidence.csv": "a1819db10d8607a46bd3116a75eb3794b95df64463737aab1bb6ab7f321fcd72",
+  "results/crossover-v1/analysis_regions.csv": "078d79244a128d56db1d16cbfacbf67ec47e03d52a81c41ddc39fbc266404784",
+  "results/crossover-v1/analysis_null_rates.csv": "c1f722a24b44a53e06cfb450279fccd66aa0d95fae229e04016e3d52ab2f1217",
+  "results/crossover-v1/analysis_overview.json": "a48ed68528f6f0321293730283d377480939434d708bd457c0b045c31fa8935e",
+  "results/crossover-v1/manifest.json": "9b6b8c57230afb4ce6066e56ac252b7dfa7e26494fa4d65daedf37b99804e417",
+  "results/crossover-v1/config.json": "c0cc4908dcd69e8ee485c46237fc3790ff99fa8f533167a8b84a4c7c3a5d7dcc",
+  "results/crossover-v1/provenance_validation.json": "4d7bb5028cac219865751868d3b8665e32f9d46174df1783512e34bcfa834996",
+  "results/crossover-v1/frozen.json": "c44498a3cbd32c967a975da46a653ff4877fe38703c441b590144bf3a7ee1078",
+  "results/crossover-v1/confirmation.json": "c0cc4908dcd69e8ee485c46237fc3790ff99fa8f533167a8b84a4c7c3a5d7dcc",
+  "results/crossover-v1/size_requirements.csv": "8199e27d9d1cfdcd7803b923a3997677829e3b1d3b58d31747dfeb8968492ec1",
+  "results/crossover-v1/calibration_manifest.json": "9df6d0a84e63215cb951a344098d1f22222b7a7c183d637158a42535ed2972cf",
+  "results/crossover-v1/failed_calibration_manifest.json": "8192f8ab53e7345a8d426101a5d8c282ec24e44da9b58b5b04cbba29c0f11ca4",
+  "results/crossover-v1/pilot_manifest.json": "e67a340d73dccf11a850479d834fa29830c12af3f85fab03010146c9d262647b",
+  "results/crossover-v1/numerical_audit.json": "ab6823fa9bbf335ad887df71f50321059b53055eff5da100b2186a7a60ef89f2",
+  "results/crossover-v1/executed_snapshot_sha256.txt": "e35236a34c9f0c277561ab9420d97848513affce5a109570587d0ea67e01ce88",
+  "results/crossover-v1/protocol_as_executed.md": "78e9add5447631ffd96d3495e24f258eeade967c960bf67191bad84a1c254361"
+}
